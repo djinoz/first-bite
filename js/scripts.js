@@ -56,6 +56,9 @@ document.getElementById('articles').addEventListener('click', () => {
         .then(response => response.text())
         .then(text => {
           document.getElementById('content').innerHTML = `<h2>${article.title}</h2><pre>${text}</pre>`;
+
+          document.getElementById('content2').innerHTML =  renderMarkdown('articles/${filename}');
+
         });
     });
   });
