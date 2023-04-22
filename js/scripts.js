@@ -2,6 +2,9 @@ const articleList = [
   { title: 'Article 1', filename: 'dont-eat-angry.md' },
   { title: 'Article 2', filename: 'eating-and-loneliness.md' },
   { title: 'Article 3', filename: 'eating-while-driving.md' },
+  { title: 'Article 3', filename: 'benefits_of_stopping_eating_before_full.md' },
+  { title: 'Article 3', filename: 'risks_of_eating_quickly.md' },
+  { title: 'Article 3', filename: 'spicy_food.md' },
   // Add more articles here as you create them
 ];
 
